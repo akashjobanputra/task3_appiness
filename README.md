@@ -13,7 +13,19 @@ There should be two models products and categories. Each category must have mult
 When listing all categories, number of products associated to that category should be returned as response.
 
 ## How to Run:
-The program takes either of two command line arguments, either `--generateData`, or `--listCategories`. If no args are provided 
+The program takes either of two command line arguments, either `--generateData`, or `--listCategories`.
+
+If no args are provided then a help message is shown.:
+```bash
+> node index.js
+DB connected!
+An argument is required to run this application.
+      First, data needs to be generated using:
+      > node index.js --generateData
+      Then for getting information about categories:
+      > node index.js --listCategories
+```
+
 #### To Generate Sample Data:
 ```bash
 > node index.js --generateData
