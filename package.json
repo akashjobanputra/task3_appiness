@@ -1,0 +1,14 @@
+{
+  "name": "task3",
+  "version": "1.0.0",
+  "description": "Products and Categories",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Akash Jobanputra",
+  "license": "ISC",
+  "dependencies": {
+    "mongoose": "^5.8.4"
+  }
+}
